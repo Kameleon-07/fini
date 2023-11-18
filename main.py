@@ -62,7 +62,7 @@ def main():
             print("\rQuitting...")
             return
         finally:
-            interpreter(command)
+            handle_command(command)
         
 
 if __name__ == "__main__":
